@@ -1,9 +1,12 @@
 //Global Variables
-float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight, drawingDiameter;
+float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight, drawingDiameter; 
+float paperButtonX, paperButtonY, paperButtonHeight, paperButtonWidth;
 Boolean paper=false;
 //
-void pieceOfPaper() {
-  fill(white);
+void Paper()
+{
+  fill(resetWhite);
   rect(drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight);
   paper=false;
-}//End pieceOfPaper
+}
+//End Paper
