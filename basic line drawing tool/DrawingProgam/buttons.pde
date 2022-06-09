@@ -13,7 +13,7 @@ void QuitButton()
     stroke(sage);
     fill(pink);
     rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
-    fill(resetWhite);
+    fill(sage);
     textAlign(CENTER, CENTER);
     textFont(font, size);
     text(quitButtonText, quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
@@ -21,7 +21,7 @@ void QuitButton()
   } else {
     
     stroke(yellow);
-    fill(resetWhite);
+    fill(sage);
     rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
     fill(orange);
     textAlign(CENTER, CENTER);
@@ -37,10 +37,10 @@ void QuitButton()
 void PaperButton()
 {
   if ( mouseX>=paperButtonX && mouseX<=paperButtonX+paperButtonWidth && mouseY>=paperButtonY && mouseY<=paperButtonY+paperButtonHeight ) {
-    stroke(purple);
+    stroke(blue);
     fill(yellow);
     rect(paperButtonX, paperButtonY, paperButtonWidth, paperButtonHeight);
-    fill(resetWhite);
+    fill(pink);
     textAlign(CENTER, CENTER);
     textFont(font, size);
     text(paperButtonText, paperButtonX, paperButtonY, paperButtonWidth, paperButtonHeight);
@@ -48,9 +48,9 @@ void PaperButton()
   } else {
     
     stroke(pink);
-    fill(resetWhite);
+    fill(blue);
     rect(paperButtonX, paperButtonY, paperButtonWidth, paperButtonHeight);
-    fill(black);
+    fill(yellow);
     textAlign(CENTER, CENTER);
     textFont(font, size);
     text(paperButtonText, paperButtonX, paperButtonY, paperButtonWidth, paperButtonHeight);
@@ -67,7 +67,7 @@ void EllipseTool()
     stroke(sage);
     fill(blue);
     rect(ellipseButtonX, ellipseButtonY, ellipseButtonWidth, ellipseButtonHeight);
-    fill(resetWhite);
+    fill(black);
     textAlign(CENTER, CENTER);
     textFont(font, size);
     text(ellipseButtonText, ellipseButtonX, ellipseButtonY, ellipseButtonWidth, ellipseButtonHeight);
@@ -75,9 +75,9 @@ void EllipseTool()
   } else {
     
     stroke(blue);
-    fill(resetWhite);
+    fill(yellow);
     rect(ellipseButtonX, ellipseButtonY, ellipseButtonWidth, ellipseButtonHeight);
-    fill(black);
+    fill(purple);
     textAlign(CENTER, CENTER);
     textFont(font, size);
     text(ellipseButtonText, ellipseButtonX, ellipseButtonY, ellipseButtonWidth, ellipseButtonHeight);
@@ -102,9 +102,9 @@ void LineTool()
   } else {
     
     stroke(purple);
-    fill(resetWhite);
+    fill(purple);
     rect(lineButtonX, lineButtonY, lineButtonWidth, lineButtonHeight);
-    fill(black);
+    fill(orange);
     textAlign(CENTER, CENTER);
     textFont(font, size);
     text(lineButtonText, lineButtonX, lineButtonY, lineButtonWidth, lineButtonHeight);

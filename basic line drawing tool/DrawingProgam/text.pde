@@ -3,7 +3,7 @@ PFont font;
 int initialFontSize=55, size=25;
 String quitButtonText = "get meh outta here man";
 String paperButtonText = "OH CRAP I MESSED UP";
-String ellipseButtonText = "pureple beauty";
+String ellipseButtonText = "purple beauty";
 String lineButtonText = "line so thin you can't even see";
 //
 void textSetup()
