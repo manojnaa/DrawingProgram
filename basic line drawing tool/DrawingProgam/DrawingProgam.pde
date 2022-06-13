@@ -1,6 +1,11 @@
 //Global vairables  //<>//
+
+
 Boolean draw=false, draw1=false;
+
 int reset=1;
+
+
 color resetWhite= #E7C4C4, sage= #B2AC88, pink= #FF1493, yellow= #ECF04D, orange= #FFD700, purple= #A020F0, black= #000000, blue= #005477, quitButtonColour, paperButtonColour;
 //
 void setup()
